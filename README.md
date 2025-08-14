@@ -53,6 +53,6 @@
 ## 👤 Developer
 
 #### Dikembangkan oleh:
-**Nama**: Feri Irawan
-**Kelas**: XII RPL 1
-**No. Presensi**: 14
+**Nama**: Feri Irawan <br>
+**Kelas**: XII RPL 1 <br>
+**No. Presensi**: 14 <br>
