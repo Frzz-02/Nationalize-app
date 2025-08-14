@@ -19,11 +19,11 @@
 
 1. Clone repositori ini:
     ```bash
-    git clone https://github.com/username/nationalize-app.git
+    git clone https://github.com/Frzz-02/Nationalize-app.git
     ```
 2. Masuk ke direktori project:
     ```bash
-    git clone https://github.com/username/nationalize-app.git
+    cd Nationalize-app
     ```
 3. Daftarkan dependensi ke pubspec.yaml (flutter_bloc, bloc, dan dio):
     ```pubspec.yaml
