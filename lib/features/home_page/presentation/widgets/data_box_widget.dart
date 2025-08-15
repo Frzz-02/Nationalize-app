@@ -78,7 +78,14 @@ class DataBoxWidget extends StatelessWidget {
 
                 
                 child: ListTile(
-                  leading: Icon(Icons.flag, color: const Color.fromARGB(255, 73, 80, 102),),
+                  leading: Padding(
+                    padding: const EdgeInsets.only(right: 5),
+                    child: CircleAvatar(
+                      backgroundImage: NetworkImage("https://flagcdn.com/w320/${country.countryId.toLowerCase()}.png"),
+                      radius: 20,
+                    ),
+                  ),
+                  // leading: Icon(Icons.flag, color: const Color.fromARGB(255, 73, 80, 102),),
                   tileColor: const Color.fromARGB(255, 191, 211, 246),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
